@@ -1,0 +1,65 @@
+/**, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;*/
+
+
+body { 
+   
+   font-family: 'Asap', sans-serif;
+   background-color: #fafafa;
+   
+}
+
+#video {
+   width: 100%;
+   height:auto;
+}
+
+.videoWrapper {
+    width:100%;
+	margin: 0 auto;
+    
+ }
+
+#subtitles {
+text-align: center;
+}
+
+
+.transcript {
+color: #72c6ed;
+}
+
+
+@media screen and (min-width: 768px) { 
+ 
+    p {
+        padding-bottom: 10px;
+    
+    } 
+    
+    .wrapper {
+  background-color: #fff;
+  width:80%;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.videoWrapper  {
+    
+    width: 852px;
+   
+ }
+    
+    
+
+
+#subtitles {
+width:60%;
+    margin:0 auto;
+
+}
+
+
+}

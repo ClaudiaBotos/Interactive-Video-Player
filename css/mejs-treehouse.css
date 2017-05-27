@@ -1,0 +1,22 @@
+.mejs__controls:not([style*="display: none"]) {
+  background: #45b3e7;
+  padding: 0;
+
+}
+
+.mejs__time-current {
+    background: #5cbdea;
+}
+
+.mejs__time-float {
+  background: none; 
+  border: none; 
+  color: #111;
+}
+
+.mejs__time-float-corner {
+  border-color: #5cbdea transparent transparent transparent;
+}
+
+
+
